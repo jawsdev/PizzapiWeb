@@ -1,0 +1,115 @@
+.pizzapi-red {
+    background-color: #F75555 !important
+}
+
+.header-logo {
+    height: 90px
+}
+
+.footer-logo {
+    height: 30px
+}
+
+.logo-image {
+    margin-top: 10px
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column
+}
+
+main {
+    flex: 1 0 auto
+}
+
+.aligner {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.aligner-item {
+    max-width: 50%
+}
+
+.aligner-item--top {
+    align-self: flex-start
+}
+
+.aligner-item--bottom {
+    align-self: flex-end
+}
+
+nav ul a {
+    font-size: 1.4rem
+}
+
+nav ul li.active, nav ul li:hover {
+    background-color: #f75555
+}
+
+.cart-badge {
+    font-weight: 300;
+    font-size: .8rem;
+    color: #fff;
+    border-radius: 2px
+}
+
+.dropdown-content {
+    background-color: #FFF;
+    margin: 0 0 0 -1px;
+    display: none;
+    min-width: 300px;
+    max-height: auto;
+    overflow: hidden;
+    opacity: 0;
+    position: absolute;
+    white-space: nowrap;
+    z-index: 1;
+    will-change: width, height
+}
+
+.footer-hr {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #f75555 inset
+}
+
+.bottom-nav-options {
+    padding: 0
+}
+
+.coverbg {
+    background-size: cover
+}
+
+.parallax {
+    background-position: center
+}
+
+.parallax img {
+    width: 100%
+}
+
+.nav-basket-item {
+    display: inline-block
+}
+
+.nav-basket-link {
+    display: block;
+    padding: 5px
+}
+
+.basket-icon {
+    margin-right: 8px
+}
+
+nav ul a span.badge {
+    margin-left: 10px
+}
+
+.main-divider {
+    height: 3px
+}

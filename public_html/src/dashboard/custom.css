@@ -1,0 +1,128 @@
+body {
+    background-color: #ffffff;
+}
+
+.dashboard-blue-bg {
+    background: #21232a;
+}
+
+.dashboard-blue-text {
+    color: #21232a;
+}
+
+.dashboard-navbar {
+    background: #21232a;
+    border-color: #080808;
+}
+
+ul.nav li a, ul.nav li a:visited {
+    color: #999999 !important;
+}
+
+ul.nav li a:hover, ul.nav li a:active {
+    color: #999999 !important;
+}
+
+ul.nav li.active a {
+    color: #999999 !important;
+}
+
+.nav .active {
+    background: #373a42;
+}
+
+.nav .hover {
+    background: #373a42;
+}
+
+
+.widget-header-icon {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.white-text {
+    color: #ffffff;
+}
+
+/* unvisited link */
+a.white-text:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* visited link */
+a.white-text:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a.white-text:hover {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+/* selected link */
+a.white-text:active {
+    color: #ffffff;
+}
+
+.grey-text {
+    color: #111111;
+}
+
+/* unvisited link */
+a.grey-text:link {
+    color: #111111;
+    text-decoration: none;
+}
+
+/* visited link */
+a.grey-text:visited {
+    color: #111111;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a.grey-text:hover {
+    color: #333333;
+    text-decoration: none;
+}
+
+/* selected link */
+a.grey-text:active {
+    color: #111111;
+    text-decoration: none;
+}
+
+.panel-default > .panel-heading .open_order_num {
+    color: #d9534f;
+    background-color: #fff;
+}
+
+.panel-default > .panel-heading .closed_order_num {
+    color: #5cb85c;
+    background-color: #fff;
+}
+.label-logo {
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+.print-label {
+    max-width: 230px;
+}
+
+orders_complete_div {
+    overflow: hidden;
+}
+.complete_button {
+    margin: 8px 0px 8px 0px;
+}
+
+.btn-dashboard {
+    color: #fff;
+    background-color: #21232a;
+    border-color: #080808;
+}
