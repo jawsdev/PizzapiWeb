@@ -163,7 +163,6 @@ Route::post('/staff/products/edit/product', [
 Route::get('/add-to-cart/{id}', [
     'uses' => 'ProductController@getAddToCart',
     'as' => 'product.addToCart',
-    'middleware' => 'auth'
 ]);
 
 Route::post('/order_complete', [

@@ -20,7 +20,7 @@
                                         </div>
                                         <div class="row">
                                             <div class="col s12 m12">
-                                                <p>{{ $sides->description }}</p>
+                                                {!! $sides->description !!}
                                             </div>
                                         </div>
                                         <div class="row">
