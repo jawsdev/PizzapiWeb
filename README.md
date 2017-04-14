@@ -1,4 +1,4 @@
-![Pizzapi Logo](Images/githubbanner.png)
+![Pizzapi Logo](https://github.com/JWUni/Images/blob/master/githubbanner.png?raw=true)
 
 https://pizzappi.uk/
 
