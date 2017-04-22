@@ -24,7 +24,7 @@
         </div>
     @endif
     <div class="row">
-        <div class="col-xs-4">
+        <div class="col-xs-3">
             <h3>Preview</h3>
             <div class="row">
                 <div class="col-xs-12">

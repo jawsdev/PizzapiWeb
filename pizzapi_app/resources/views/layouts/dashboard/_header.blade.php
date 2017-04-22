@@ -16,14 +16,13 @@
             @if ($agent->isTablet())
                 <img alt="Brand" src="{{ URL::to('/img/m_logo.png') }}">
             @endif
-
         </a>
     </div>
     <!-- Top Menu Items -->
     <ul class="nav navbar-right top-nav">
         <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i
-                        class="fa fa-user"></i> {{ $user_info['first_name'] }} {{ $user_info['last_name'] }} <b
+                        class="fa fa-user"></i> {{ Auth::user()->first_name }} {{ Auth::user()->last_name }}<b
                         class="caret"></b></a>
             <ul class="dropdown-menu">
                 @if(Auth::check())

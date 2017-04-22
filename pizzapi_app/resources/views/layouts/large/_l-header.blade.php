@@ -1,6 +1,6 @@
-<div class="header-logo aligner pizzapi-red">
+<div class="header-logo aligner pizzapi-red z-depth-1">
     <div class="aligner-item--fixed">
-        <a href="/"><img class="logo-image" src="{{ URL::to('/') }}/img/logo.png"></a>
+        <a href="{{ route('pages.main') }}"><img class="logo-image" src="{{ URL::to('/img/logo.png') }}"></a>
     </div>
 </div>
 <div class="navbar">
@@ -20,7 +20,6 @@
                     </li>
                 </ul>
             </div>
-
             <ul class="right">
                 <li class="{{ Request::is('shopping-cart') ? 'active' : '' }} {{ Request::is('checkout') ? 'active' : '' }}">
                     <a href="{{ route('product.shoppingCart') }}">
@@ -50,7 +49,6 @@
                         <li><a class="black-text" href="{{ route('user.signup') }}">Signup</a></li>
                     @endif
                 </ul>
-
             </ul>
         </div>
     </nav>

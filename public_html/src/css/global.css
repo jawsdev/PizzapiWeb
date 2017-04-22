@@ -30,6 +30,7 @@ a.pizzapi-red-text:active{color:#F75555;}
 .row-padding{padding:20px;!important;}
 .item-padding{padding:10px;}
 .icon-spacing{margin:5px;}
+.icon-spacing-horizontal{margin-left:10px; margin-right:10px;}
 .block-icon{display:block;width:20px;}
 a.white-text:link{color:#ffffff;text-decoration:none;}
 a.white-text:visited{color:#ffffff;text-decoration:none;}
@@ -40,3 +41,9 @@ a.grey-text:link{color:#111111;text-decoration:none;}
 a.grey-text:visited{color:#111111;text-decoration:none;}
 a.grey-text:hover{color:#333333;text-decoration:none;}
 a.grey-text:active{color:#111111;text-decoration:none;}
+.breadcrumb-icon{display: inline-flex;vertical-align: middle;}
+.basket-buttons-left{ line-height: 2px;}
+.basket-buttons-right{ line-height: 2px;}
+.basket-buttons-amount{margin-left: auto; margin-right: auto;}
+.card-icon{max-width: 64px;}
+.main-buttons{min-width: 123px;}

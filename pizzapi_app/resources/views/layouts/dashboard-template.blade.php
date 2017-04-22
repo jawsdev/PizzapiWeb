@@ -24,7 +24,8 @@
     <link href="{{ URL::to('src/dashboard/custom.css') }}" rel="stylesheet">
 
     <!-- Font Awesome -->
-    <link href="{{ URL::to('src/assets/bootstrap/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ URL::to('src/assets/bootstrap/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet"
+          type="text/css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -38,13 +39,9 @@
 <body>
 
 <div id="wrapper">
-
-    @include('layouts.dashboard._header', ['user_info' => $user_info])
-
+    @include('layouts.dashboard._header')
     <div id="page-wrapper">
-
         <div class="container-fluid">
-
             <!-- Page Heading -->
             <div class="row">
                 <div class="col-lg-12">
@@ -63,7 +60,6 @@
                 </div>
             </div>
             <!-- /.row -->
-
             <!-- Page Content -->
             <div class="container-fluid">
                 <div class="row">
@@ -71,20 +67,15 @@
                     @yield("content")
                 </div>
             </div>
-
         </div>
         <!-- /.container-fluid -->
-
     </div>
     <!-- /#page-wrapper -->
-
 </div>
 <!-- /#wrapper -->
-
 <!-- Include vital scripts for Bootstrap -->
 @include('layouts.dashboard._scripts')
 <!-- /scripts -->
 @yield('scripts')
 </body>
-
 </html>

@@ -1,5 +1,5 @@
 @extends("layouts.master-template")
-@section("title", "| Drinks Menu")
+@section("title", "Drinks Menu")
 @section('content')
     <div class="container">
         @foreach($drinks->chunk(5) as $drinksChunk)
@@ -9,7 +9,7 @@
                         <div class="row">
                             <div class="col s12 m12">
                                 <div class="card">
-                                    <div class="card-image">
+                                    <div class="card-image" style="height: 250px; overflow: hidden;">
                                         <img src="{{ URL::to('img/products', $drinks->imagePath) }}">
                                     </div>
                                     <div class="card-content">
@@ -19,7 +19,7 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col s12 m12">
+                                            <div class="col s12 m12" style="height: 60px;">
                                                 {!! $drinks->description !!}
                                             </div>
                                         </div>

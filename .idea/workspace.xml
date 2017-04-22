@@ -2,8 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0665258e-e61d-4c90-ad9a-4bb3768823b1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/app/Http/routes.php" afterPath="$PROJECT_DIR$/pizzapi_app/app/Http/routes.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/img/stocks/chefs-1661129_640.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/src/js/postcode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/CurrentProductsController.php" afterPath="$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/CurrentProductsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/PagesController.php" afterPath="$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/PagesController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/ProductController.php" afterPath="$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/ProductController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/StaffController.php" afterPath="$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/StaffController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/UserController.php" afterPath="$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/UserController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/app/Providers/AppServiceProvider.php" afterPath="$PROJECT_DIR$/pizzapi_app/app/Providers/AppServiceProvider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/app/User.php" afterPath="$PROJECT_DIR$/pizzapi_app/app/User.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/config/app.php" afterPath="$PROJECT_DIR$/pizzapi_app/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/dashboard-template.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/dashboard-template.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/dashboard/_header.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/dashboard/_header.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/large/_l-footer.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/large/_l-footer.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/large/_l-header.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/large/_l-header.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/master-template.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/master-template.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/small/_s-footer.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/small/_s-footer.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/small/_s-header.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/small/_s-header.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/pages/401.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/pages/401.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/pages/about.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/pages/about.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/pages/contact.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/pages/contact.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/pages/main.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/pages/main.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/partials/_globalscripts.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/partials/_globalscripts.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/shop/checkout.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/shop/checkout.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/shop/desserts.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/shop/desserts.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/shop/drinks.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/shop/drinks.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/shop/index.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/shop/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/shop/shopping-cart.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/shop/shopping-cart.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/shop/sides.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/shop/sides.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/staff/dashboard.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/staff/dashboard.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/staff/products/edit.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/staff/products/edit.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/user/profile.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/user/profile.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pizzapi_app/resources/views/user/signup.blade.php" afterPath="$PROJECT_DIR$/pizzapi_app/resources/views/user/signup.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/.htaccess" afterPath="$PROJECT_DIR$/public_html/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/src/css/global.css" afterPath="$PROJECT_DIR$/public_html/src/css/global.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/src/dashboard/custom.css" afterPath="$PROJECT_DIR$/public_html/src/dashboard/custom.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,87 +48,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="checkout.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/shop/checkout.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding>
-                <marker date="1492204960449" expanded="true" signature="9:34" ph="..." />
-                <marker date="1492204960449" expanded="true" signature="45:90" ph="..." />
-                <marker date="1492204960449" expanded="true" signature="101:110" ph="..." />
-                <marker date="1492204960449" expanded="true" signature="284:292" ph="..." />
-                <marker date="1492204960449" expanded="true" signature="359:399" ph="..." />
-                <marker date="1492204960449" expanded="true" signature="630:638" ph="..." />
-                <marker date="1492204960449" expanded="true" signature="765:788" ph="..." />
-                <marker date="1492204960449" expanded="true" signature="884:903" ph="..." />
-                <marker date="1492204960449" expanded="true" signature="1142:1166" ph="..." />
-                <marker date="1492204960449" expanded="true" signature="1523:1546" ph="..." />
-                <marker date="1492204960449" expanded="true" signature="3115:3136" ph="..." />
-                <marker date="1492204960449" expanded="true" signature="4623:4649" ph="..." />
-                <marker date="1492204960449" expanded="true" signature="5109:5133" ph="..." />
-                <marker date="1492204960449" expanded="true" signature="5138:5161" ph="..." />
-                <marker date="1492204960449" expanded="true" signature="7091:7110" ph="..." />
-                <marker date="1492204960449" expanded="true" signature="7149:7163" ph="..." />
-                <marker date="1492204960449" expanded="true" signature="9015:9024" ph="..." />
-                <marker date="1492204960449" expanded="true" signature="9068:9099" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pizzapi_app/app/Http/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="164" column="32" lean-forward="false" selection-start-line="164" selection-start-column="32" selection-end-line="164" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sides.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/shop/sides.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-              <folding>
-                <marker date="1492206129669" expanded="true" signature="9:34" ph="..." />
-                <marker date="1492206129669" expanded="true" signature="45:68" ph="..." />
-                <marker date="1492206129669" expanded="true" signature="79:88" ph="..." />
-                <marker date="1492206129669" expanded="true" signature="554:598" ph="..." />
-                <marker date="1492206129669" expanded="true" signature="916:931" ph="..." />
-                <marker date="1492206129669" expanded="true" signature="1223:1244" ph="..." />
-                <marker date="1492206129669" expanded="true" signature="1550:1565" ph="..." />
-                <marker date="1492206129669" expanded="true" signature="1856:1906" ph="..." />
-                <marker date="1492206129669" expanded="true" signature="1983:1998" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="drinks.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/shop/drinks.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="76" />
-              <folding>
-                <marker date="1492072145190" expanded="true" signature="9:34" ph="..." />
-                <marker date="1492072145190" expanded="true" signature="45:69" ph="..." />
-                <marker date="1492072145190" expanded="true" signature="80:89" ph="..." />
-                <marker date="1492072145190" expanded="true" signature="559:604" ph="..." />
-                <marker date="1492072145190" expanded="true" signature="922:938" ph="..." />
-                <marker date="1492072145190" expanded="true" signature="1230:1252" ph="..." />
-                <marker date="1492072145190" expanded="true" signature="1558:1574" ph="..." />
-                <marker date="1492072145190" expanded="true" signature="1865:1916" ph="..." />
-                <marker date="1492072145190" expanded="true" signature="2095:2111" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -106,7 +60,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>rob</find>
       <find>sides</find>
       <find>blank</find>
       <find>in</find>
@@ -135,6 +88,7 @@
       <find>getFilterProducts</find>
       <find>products/list/filter</find>
       <find>manager</find>
+      <find>user</find>
       <find>user_info</find>
     </findStrings>
     <replaceStrings>
@@ -155,57 +109,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UserController.php" />
-        <option value="$PROJECT_DIR$/resources/views/shop/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/dashboard-template.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/staff/manager.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/staff/products/create.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/staff/orders/open_orders.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
-        <option value="$PROJECT_DIR$/resources/views/staff/products/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/shop/drinks.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/shop/desserts.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/partials/_globalscripts.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/master-template.blade.php" />
-        <option value="$PROJECT_DIR$/public/src/css/l-template.css" />
-        <option value="$PROJECT_DIR$/resources/views/pages/contact.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/about.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/main.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/shop/checkout.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/resources/views/staff/current-products.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/CurrentProductsController.php" />
         <option value="$PROJECT_DIR$/resources/views/staff/products/products_filtered.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/dashboard/_header.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/StaffController.php" />
         <option value="$PROJECT_DIR$/resources/views/staff/dashboard.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/user/profile.blade.php" />
         <option value="$PROJECT_DIR$/pizzapi_app/.env" />
-        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/pages/about.blade.php" />
-        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/master-template.blade.php" />
-        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/small/_s-footer.blade.php" />
-        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/user/profile.blade.php" />
-        <option value="$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/CurrentProductsController.php" />
         <option value="$PROJECT_DIR$/public_html/index.php" />
-        <option value="$PROJECT_DIR$/public_html/src/css/global.css" />
-        <option value="$PROJECT_DIR$/public_html/src/css/s-template.css" />
         <option value="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/small/_s-head.blade.php" />
         <option value="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/small/_s-scripts.blade.php" />
-        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/dashboard-template.blade.php" />
-        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/partials/_globalscripts.blade.php" />
         <option value="$PROJECT_DIR$/public_html/src/css/l-template.css" />
-        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/staff/products/edit.blade.php" />
         <option value="$PROJECT_DIR$/pizzapi_app/resources/views/staff/products/create.blade.php" />
         <option value="$PROJECT_DIR$/pizzapi_app/resources/views/staff/manager.blade.php" />
-        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/dashboard/_header.blade.php" />
-        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/user/signin.blade.php" />
-        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/shop/shopping-cart.blade.php" />
-        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/small/_s-header.blade.php" />
-        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/pages/main.blade.php" />
         <option value="$PROJECT_DIR$/pizzapi_app/resources/views/staff/current-products.blade.php" />
-        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/shop/checkout.blade.php" />
         <option value="$PROJECT_DIR$/pizzapi_app/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/pages/about.blade.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/pages/contact.blade.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/app/User.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/small/_s-header.blade.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/app/Providers/AppServiceProvider.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/PagesController.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/ProductController.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/CurrentProductsController.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/dashboard-template.blade.php" />
+        <option value="$PROJECT_DIR$/public_html/src/dashboard/custom.css" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/dashboard/_header.blade.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/app/Cart.php" />
         <option value="$PROJECT_DIR$/pizzapi_app/resources/views/shop/sides.blade.php" />
+        <option value="$PROJECT_DIR$/public_html/src/css/s-template.css" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/small/_s-footer.blade.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/staff/dashboard.blade.php" />
+        <option value="$PROJECT_DIR$/public_html/src/js/postcode.js" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/master-template.blade.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/shop/index.blade.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/shop/drinks.blade.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/shop/desserts.blade.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/user/profile.blade.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/pages/401.blade.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/large/_l-footer.blade.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/staff/products/edit.blade.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/StaffController.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/config/app.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/user/signup.blade.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/shop/checkout.blade.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/shop/shopping-cart.blade.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/partials/_globalscripts.blade.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/user/signin.blade.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/UserController.php" />
+        <option value="$PROJECT_DIR$/public_html/src/css/global.css" />
+        <option value="$PROJECT_DIR$/public_html/.htaccess" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/pages/main.blade.php" />
+        <option value="$PROJECT_DIR$/pizzapi_app/resources/views/layouts/large/_l-header.blade.php" />
       </list>
     </option>
   </component>
@@ -238,8 +192,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -280,7 +234,29 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PizzapiWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PizzapiWeb" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,62 +319,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="user" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PizzapiWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PizzapiWeb" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizzapi_app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="staff" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PizzapiWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PizzapiWeb" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizzapi_app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="staff" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -532,67 +452,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="small" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PizzapiWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PizzapiWeb" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizzapi_app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="large" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PizzapiWeb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PizzapiWeb" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pizzapi_app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dashboard" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -827,23 +687,43 @@
       <workItem from="1492179783661" duration="1301000" />
       <workItem from="1492202106614" duration="670000" />
       <workItem from="1492204893607" duration="392000" />
-      <workItem from="1492205994274" duration="139000" />
+      <workItem from="1492205994274" duration="1286000" />
+      <workItem from="1492210239144" duration="2096000" />
+      <workItem from="1492251064530" duration="1343000" />
+      <workItem from="1492286056350" duration="6000" />
+      <workItem from="1492287133643" duration="443000" />
+      <workItem from="1492287643749" duration="260000" />
+      <workItem from="1492322335306" duration="2585000" />
+      <workItem from="1492350299547" duration="8000" />
+      <workItem from="1492350319251" duration="11000" />
+      <workItem from="1492422966776" duration="10000" />
+      <workItem from="1492457357052" duration="28000" />
+      <workItem from="1492459760114" duration="941000" />
+      <workItem from="1492535525196" duration="14000" />
+      <workItem from="1492535550894" duration="11054000" />
+      <workItem from="1492578818437" duration="4215000" />
+      <workItem from="1492619481536" duration="12374000" />
+      <workItem from="1492669138617" duration="3099000" />
+      <workItem from="1492699370420" duration="7900000" />
+      <workItem from="1492716034615" duration="1514000" />
+      <workItem from="1492769170462" duration="4974000" />
+      <workItem from="1492811075176" duration="2454000" />
+      <workItem from="1492868023967" duration="819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="347886000" />
+    <option name="totallyTimeSpent" value="405181000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296875" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19270833" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19270833" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.123655915" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.120430104" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -872,66 +752,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/staff/products/create.blade.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ProductController.php" />
-    <entry file="file://$PROJECT_DIR$/public/src/css/s-template.css" />
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/master-template.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/partials/_globalscripts.blade.php" />
-    <entry file="file://$PROJECT_DIR$/public/src/css/l-template.css" />
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/contact.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/about.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/shop/checkout.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/staff/products/delete.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/main.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/shop/index.blade.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CurrentProductsController.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/staff/current-products.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/staff/products/products_filtered.blade.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/dashboard/_header.blade.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/StaffController.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/staff/dashboard.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/user/profile.blade.php" />
     <entry file="file://$PROJECT_DIR$/pizzapi_app/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/user/profile.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/CurrentProductsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="86" column="32" lean-forward="false" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="40" column="3" lean-forward="false" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/layouts/small/_s-footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/src/css/s-template.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -942,74 +768,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/pages/about.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/layouts/dashboard-template.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="57" lean-forward="false" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/src/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/partials/_globalscripts.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="90" lean-forward="false" selection-start-line="1" selection-start-column="90" selection-end-line="1" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/layouts/master-template.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/layouts/large/_l-footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="45" column="21" lean-forward="true" selection-start-line="40" selection-start-column="15" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/src/css/l-template.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="76" column="41" lean-forward="false" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/staff/products/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="79" column="60" lean-forward="false" selection-start-line="79" selection-start-column="60" selection-end-line="79" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/staff/products/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
           <caret line="52" column="56" lean-forward="false" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/StaffController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1075">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,17 +782,108 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/layouts/dashboard/_header.blade.php">
+    <entry file="file://$PROJECT_DIR$/public_html/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state relative-caret-position="500">
+          <caret line="39" column="19" lean-forward="false" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/user/signin.blade.php">
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/pages/about.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="480">
+          <caret line="24" column="72" lean-forward="false" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/pages/contact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="62" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/PagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/app/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/CurrentProductsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="192" column="55" lean-forward="true" selection-start-line="192" selection-start-column="55" selection-end-line="192" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/layouts/small/_s-header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="28" column="73" lean-forward="true" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/src/dashboard/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="129" column="0" lean-forward="true" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/app/Cart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="20" column="75" lean-forward="true" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/app/Product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/shop/sides.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="45" lean-forward="false" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -1041,31 +894,193 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/layouts/large/_l-header.blade.php">
+    <entry file="file://$PROJECT_DIR$/public_html/src/css/s-template.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="600">
+          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/layouts/small/_s-header.blade.php">
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/layouts/small/_s-footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+        <state relative-caret-position="-20">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/shop/shopping-cart.blade.php">
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/layouts/dashboard-template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1552">
+          <caret line="79" column="7" lean-forward="false" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/staff/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="34" lean-forward="false" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/layouts/dashboard/_header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="89" lean-forward="false" selection-start-line="10" selection-start-column="59" selection-end-line="10" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/src/js/postcode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/shop/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/shop/drinks.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/shop/desserts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/user/profile.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="119" column="54" lean-forward="false" selection-start-line="119" selection-start-column="54" selection-end-line="119" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/pages/401.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/layouts/large/_l-footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="46" lean-forward="false" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/staff/products/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/staff/current-products.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/shop/checkout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2660">
+          <caret line="133" column="103" lean-forward="false" selection-start-line="133" selection-start-column="98" selection-end-line="133" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/layouts/master-template.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/partials/_globalscripts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="58" lean-forward="false" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/shop/shopping-cart.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="70" column="89" lean-forward="false" selection-start-line="70" selection-start-column="84" selection-end-line="70" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/StaffController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="35" column="34" lean-forward="false" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/user/signup.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1460">
+          <caret line="73" column="63" lean-forward="false" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/user/signin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="67" lean-forward="false" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/ProductController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2020">
-          <caret line="115" column="41" lean-forward="false" selection-start-line="115" selection-start-column="41" selection-end-line="115" selection-end-column="41" />
+        <state relative-caret-position="3320">
+          <caret line="180" column="9" lean-forward="false" selection-start-line="180" selection-start-column="9" selection-end-line="180" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/app/Http/Controllers/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="55" column="8" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/src/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="48" column="31" lean-forward="false" selection-start-line="48" selection-start-column="31" selection-end-line="48" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="785">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/src/css/l-template.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="76" column="41" lean-forward="false" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1073,84 +1088,57 @@
     <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/pages/main.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="24" column="45" lean-forward="false" selection-start-line="24" selection-start-column="45" selection-end-line="24" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/staff/current-products.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/shop/checkout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
           <folding>
-            <marker date="1492204960449" expanded="true" signature="9:34" ph="..." />
-            <marker date="1492204960449" expanded="true" signature="45:90" ph="..." />
-            <marker date="1492204960449" expanded="true" signature="101:110" ph="..." />
-            <marker date="1492204960449" expanded="true" signature="284:292" ph="..." />
-            <marker date="1492204960449" expanded="true" signature="359:399" ph="..." />
-            <marker date="1492204960449" expanded="true" signature="630:638" ph="..." />
-            <marker date="1492204960449" expanded="true" signature="765:788" ph="..." />
-            <marker date="1492204960449" expanded="true" signature="884:903" ph="..." />
-            <marker date="1492204960449" expanded="true" signature="1142:1166" ph="..." />
-            <marker date="1492204960449" expanded="true" signature="1523:1546" ph="..." />
-            <marker date="1492204960449" expanded="true" signature="3115:3136" ph="..." />
-            <marker date="1492204960449" expanded="true" signature="4623:4649" ph="..." />
-            <marker date="1492204960449" expanded="true" signature="5109:5133" ph="..." />
-            <marker date="1492204960449" expanded="true" signature="5138:5161" ph="..." />
-            <marker date="1492204960449" expanded="true" signature="7091:7110" ph="..." />
-            <marker date="1492204960449" expanded="true" signature="7149:7163" ph="..." />
-            <marker date="1492204960449" expanded="true" signature="9015:9024" ph="..." />
-            <marker date="1492204960449" expanded="true" signature="9068:9099" ph="..." />
+            <marker date="1492868061603" expanded="true" signature="9:34" ph="..." />
+            <marker date="1492868061603" expanded="true" signature="45:88" ph="..." />
+            <marker date="1492868061603" expanded="true" signature="99:111" ph="..." />
+            <marker date="1492868061603" expanded="true" signature="284:304" ph="..." />
+            <marker date="1492868061603" expanded="true" signature="369:411" ph="..." />
+            <marker date="1492868061603" expanded="true" signature="948:957" ph="..." />
+            <marker date="1492868061603" expanded="true" signature="1008:1032" ph="..." />
+            <marker date="1492868061603" expanded="true" signature="1132:1174" ph="..." />
+            <marker date="1492868061603" expanded="true" signature="1514:1536" ph="..." />
+            <marker date="1492868061603" expanded="true" signature="1659:1681" ph="..." />
+            <marker date="1492868061603" expanded="true" signature="2029:2071" ph="..." />
+            <marker date="1492868061603" expanded="true" signature="2770:2819" ph="..." />
+            <marker date="1492868061603" expanded="true" signature="3500:3522" ph="..." />
+            <marker date="1492868061603" expanded="true" signature="3619:3668" ph="..." />
+            <marker date="1492868061603" expanded="true" signature="4372:4419" ph="..." />
+            <marker date="1492868061603" expanded="true" signature="5109:5155" ph="..." />
+            <marker date="1492868061603" expanded="true" signature="5798:5861" ph="..." />
+            <marker date="1492868061603" expanded="true" signature="6411:6420" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pizzapi_app/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/layouts/large/_l-header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="164" column="32" lean-forward="false" selection-start-line="164" selection-start-column="32" selection-end-line="164" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/shop/drinks.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="47" lean-forward="false" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="76" />
+        <state relative-caret-position="400">
+          <caret line="23" column="114" lean-forward="true" selection-start-line="23" selection-start-column="114" selection-end-line="23" selection-end-column="114" />
           <folding>
-            <marker date="1492072145190" expanded="true" signature="9:34" ph="..." />
-            <marker date="1492072145190" expanded="true" signature="45:69" ph="..." />
-            <marker date="1492072145190" expanded="true" signature="80:89" ph="..." />
-            <marker date="1492072145190" expanded="true" signature="559:604" ph="..." />
-            <marker date="1492072145190" expanded="true" signature="922:938" ph="..." />
-            <marker date="1492072145190" expanded="true" signature="1230:1252" ph="..." />
-            <marker date="1492072145190" expanded="true" signature="1558:1574" ph="..." />
-            <marker date="1492072145190" expanded="true" signature="1865:1916" ph="..." />
-            <marker date="1492072145190" expanded="true" signature="2095:2111" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pizzapi_app/resources/views/shop/sides.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="50" lean-forward="true" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding>
-            <marker date="1492206129669" expanded="true" signature="9:34" ph="..." />
-            <marker date="1492206129669" expanded="true" signature="45:68" ph="..." />
-            <marker date="1492206129669" expanded="true" signature="79:88" ph="..." />
-            <marker date="1492206129669" expanded="true" signature="554:598" ph="..." />
-            <marker date="1492206129669" expanded="true" signature="916:931" ph="..." />
-            <marker date="1492206129669" expanded="true" signature="1223:1244" ph="..." />
-            <marker date="1492206129669" expanded="true" signature="1550:1565" ph="..." />
-            <marker date="1492206129669" expanded="true" signature="1856:1906" ph="..." />
-            <marker date="1492206129669" expanded="true" signature="1983:1998" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="113:134" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="169:195" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="407:441" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="456:477" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="528:566" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="613:637" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="689:727" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="774:796" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="848:887" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="934:957" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="1010:1051" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="1098:1123" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="1267:1313" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="1318:1359" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="1395:1426" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="1714:1774" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="1967:2005" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="2065:2088" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="2469:2492" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="2626:2648" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="2752:2774" ph="..." />
+            <marker date="1492868240075" expanded="true" signature="2902:2924" ph="..." />
           </folding>
         </state>
       </provider>

@@ -1,6 +1,13 @@
 @extends('layouts.dashboard-template')
 @section("title", "Orders")
 @section('content')
+    @if($orders_open->isEmpty())
+        <div class="row">
+            <div class="col-xs-12 col-lg-6">
+                <h4>No Open Orders</h4>
+            </div>
+        </div>
+    @else
     <div class="row">
         <div class="col-lg-9 col-xs-12">
             <h3>Orders
@@ -132,6 +139,14 @@
             </div>
         </div>
     </div>
+    @endif
+    @if($orders_closed->isEmpty())
+        <div class="row">
+            <div class="col-xs-12 col-lg-6">
+                <h4>No Closed Orders</h4>
+            </div>
+        </div>
+    @else
     <div class="col-lg-3 col-xs-12">
         <h3>Orders
             <small>Complete</small>
@@ -243,56 +258,58 @@
             </div>
             <!-- Optional: clear the XS cols if their content doesn't match in height -->
         @endforeach
-    </div>
-
-
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                                aria-hidden="true">&times;</span></button>
-                    <h4 class="modal-title" id="myModalLabel">Print Label</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="printableArea">
-                        <div class="print-label">
-                            <div class="row">
-                                <div class="col-xs-5">
-                                    <small><strong>#0{{ $order->id}}</strong></small>
-                                    <br>
-                                    <small>{{ $order->phone_number}}</small>
-                                </div>
-                                <div class="col-xs-5">
-                                    <small><strong>PAID</strong></small>
-                                    <br>
-                                    <small>{{ Carbon\Carbon::parse($order->created_at)->format('d-m-Y') }}</small>
-                                </div>
-                                <div class="col-xs-2">
-                                    <img class="label-logo pull-right" src="{{ URL::to('img/logoredsymbol.png') }}"
-                                         alt="Print Logo">
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <small><strong><span class="text-uppercase">{{ $order->last_name}}
-                                                ,</span> {{ $order->first_name}}</strong></small>
-                                    <br>
-                                    <small><strong>{{ $order->address}}</strong></small>
+        <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                        aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Print Label</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="printableArea">
+                                <div class="print-label">
+                                    <div class="row">
+                                        <div class="col-xs-5">
+                                            <small><strong>#0{{ $order->id}}</strong></small>
+                                            <br>
+                                            <small>{{ $order->phone_number}}</small>
+                                        </div>
+                                        <div class="col-xs-5">
+                                            <small><strong>PAID</strong></small>
+                                            <br>
+                                            <small>{{ Carbon\Carbon::parse($order->created_at)->format('d-m-Y') }}</small>
+                                        </div>
+                                        <div class="col-xs-2">
+                                            <img class="label-logo pull-right" src="{{ URL::to('img/logoredsymbol.png') }}"
+                                                 alt="Print Logo">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <small><strong><span class="text-uppercase">{{ $order->last_name}}
+                                                        ,</span> {{ $order->first_name}}</strong></small>
+                                            <br>
+                                            <small><strong>{{ $order->address}}</strong></small>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="modal-footer">
+                            <a class="btn btn-default" href="javascript:void(0);" id="printButton"><i
+                                        class="fa fa-print fa-2x fa fa-fw" aria-hidden="true"></i></a>
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                        </div>
                     </div>
                 </div>
-                <div class="modal-footer">
-                    <a class="btn btn-default" href="javascript:void(0);" id="printButton"><i
-                                class="fa fa-print fa-2x fa fa-fw" aria-hidden="true"></i></a>
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-                </div>
             </div>
-        </div>
+            @endif
     </div>
+
+
+
 @endsection
 @section('scripts')
     <script src="{{ URL::to('src/assets/print/jquery.PrintArea.js') }}"></script>

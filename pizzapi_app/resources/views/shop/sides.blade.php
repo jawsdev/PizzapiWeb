@@ -9,7 +9,7 @@
                         <div class="row">
                             <div class="col s12 m12">
                                 <div class="card">
-                                    <div class="card-image">
+                                    <div class="card-image" style="height: 250px; overflow: hidden;">
                                         <img src="{{ URL::to('img/products', $sides->imagePath) }}">
                                     </div>
                                     <div class="card-content">
@@ -19,7 +19,7 @@
                                             </div>
                                         </div>
                                         <div class="row">
-                                            <div class="col s12 m12">
+                                            <div class="col s12 m12" style="height: 60px;">
                                                 {!! $sides->description !!}
                                             </div>
                                         </div>

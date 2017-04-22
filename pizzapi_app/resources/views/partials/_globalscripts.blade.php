@@ -3,6 +3,7 @@
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.1/js/materialize.min.js"></script>
 <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+<script src="{{ URL::to('src/assets/parsley/parsley.min.js') }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 <script src="https://cdn.jsdelivr.net/cookie-bar/latest/cookiebar-latest.js"></script>
 
@@ -11,7 +12,6 @@
         // Animate loader off screen
         $(".se-pre-con").fadeOut("slow");;
     });
-
 </script>
 
 <!-- Materialize initializations  -->
@@ -19,8 +19,6 @@
     $(document).ready(function(){
         $('.parallax').parallax();
     });
-
-    $('.carousel.carousel-slider').carousel({fullWidth: true});
 </script>
 
 <script type="text/javascript">

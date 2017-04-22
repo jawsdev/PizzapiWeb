@@ -17,10 +17,7 @@
         <div class="row container">
             <div class="col s12 m12 l6">
                 <h2 class="header truncate">History</h2>
-                <p class="grey-text flow-text lighten-3">Moved morning. Fifth dominion yielding were. Place seasons
-                    greater were fill don't winged. Subdue. Us fruitful appear years give said winged image rule moved
-                    life. Firmament forth given likeness whales. Seed every the Seas fruitful shall set let for day air
-                    likeness. Won't divided made Which let thing morning one.</p>
+                <p class="grey-text flow-text lighten-3">Penatibus. Velit orci nec Gravida blandit condimentum nostra interdum metus ullamcorper. Malesuada sodales nulla porta interdum lobortis lectus in, enim per, cubilia aptent ligula elementum orci mi consequat urna duis elementum pellentesque lectus magnis sociosqu sodales dignissim habitant per montes platea purus curabitur. Etiam conubia massa suscipit placerat magna fames.</p>
             </div>
             <div class="col s12 m12 l6">
                 <h2 class="header truncate">What is Pizzapi?</h2>

@@ -122,43 +122,29 @@ class CurrentProductsController extends Controller
 
     public function postEditProduct(Request $request)
     {
-
-        $userId = Auth::id();
-        $user_info = User::find($userId);
-
         $id = $request->input('product_id');
         $product = Product::findOrFail($id);
-
-        return view('staff.products.edit', ['product' => $product, 'user_info' => $user_info]);
+        return view('staff.products.edit', ['product' => $product]);
     }
 
     public function getEditProduct(Request $request)
     {
-        $userId = Auth::id();
-        $user_info = User::find($userId);
-
         $id = $this->product($id);
         $product = Product::findOrFail($id);
 
-        return view('staff.products.edit', ['user_info' => $user_info]);
+        return view('staff.products.edit');
     }
 
 
 
     public function getEditProductItem(Request $request)
     {
-        $userId = Auth::id();
-        $user_info = User::find($userId);
-
-        return view('staff.products.edit', ['user_info' => $user_info]);
+        return view('staff.products.edit');
     }
 
 
     public function postEditProductItem(Request $request)
     {
-        $userId = Auth::id();
-        $user_info = User::find($userId);
-
         $this->validate($request, [
             'title' => 'required|max:255',
             'price' => 'required|digits_between:1,3',
@@ -170,7 +156,6 @@ class CurrentProductsController extends Controller
         $id = $request->input('product_id');
         $request->session()->put('id', $id);
         $product = Product::find($id);
-
         $product->title = $request->input('title');
         $product->price = $request->input('price');
         $product->description = $request->input('description');
@@ -178,13 +163,11 @@ class CurrentProductsController extends Controller
         $product->code = $request->input('code');
 
         try{
-
             if($request->hasFile('product_image')){
                 $image = $request->file('product_image');
                 $filename = time() . '.' . $image->getClientOriginalExtension();
                 $location = public_path('img/products/' . $filename);
-                Image::make($image)->resize(400,null, function ($constraint) {
-                    $constraint->aspectRatio();
+                Image::make($image)->resize(400,null, function ($constraint) {$constraint->aspectRatio();
                 })->save($location);
                 $product->imagePath = $filename;
                 $product->save();
@@ -197,8 +180,7 @@ class CurrentProductsController extends Controller
             return redirect()->route('staff.current-products');
 
         } catch(\Exception $e){
-            return View::make('staff.product.edits')
-                ->with('id', Product::find($id));
+            return View::make('staff.product.edits')->with('id', Product::find($id));
         }
     }
 
@@ -212,9 +194,7 @@ class CurrentProductsController extends Controller
     {
         $id = $request->input('product_id');
         $product = Product::find($id);
-
         $product->delete();
-
         Flash::message('Product Deleted!');
         return redirect()->route('staff.current-products');
     }

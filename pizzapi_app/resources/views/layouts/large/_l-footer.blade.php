@@ -23,7 +23,7 @@
                     <li><a class="white-text" href="#"><h6>Blog</h6></a></li>
                     <li><a class="white-text" href="#"><h6>Team</h6></a></li>
                     <li><a class="white-text" href="#"><h6>Careers</h6></a></li>
-                    <li><a class="white-text" target="_blank" href="{{ route('staff') }}"><h6>Dashboard</h6></a></li>
+                    <li><a class="white-text" href="{{ route('staff') }}"><h6>Dashboard</h6></a></li>
                     <li><a class="white-text" href="{{ route('contact.index') }}"><h6>Contact</h6></a></li>
                 </ul>
             </div>
@@ -31,7 +31,7 @@
                 <h5 class="pizzapi-red-text">Opening Times</h5>
                 <ul>
                     <li><a class="white-text"<h6>Tuesday to Sunday</h6></a></li>
-                    <li><a class="white-text"><h6>13pm - 12am</h6></a></li>
+                    <li><a class="white-text"><h6>1pm - 12am</h6></a></li>
                     <li><a class="white-text"><h6><br></h6></a></li>
                     <li><a class="white-text"><h6>Delivery Available</h6></a></li>
                     <li><a class="white-text"><h6>01736 555666</h6></a></li>
@@ -67,9 +67,7 @@
 <div class="row grey grey darken-4 no_bottom_margin">
     <div class="col s12" style="padding: 20px;">
         <span class="aligner white-text error-text-small">
-            <a class="white-text text-spacing" href="#">Conditions of Use & Sale</a>
-            <a class="white-text text-spacing" href="#">Privacy Notice</a>
-            <a class="white-text text-spacing" href="#">Cookies & Internet Advertising</a>
+            <a class="white-text text-spacing" href="#">Conditions of Use</a>
             <span class="text-spacing">&copy; <?php echo date("Y"); ?> Pizzapi</span>
         </span>
     </div>

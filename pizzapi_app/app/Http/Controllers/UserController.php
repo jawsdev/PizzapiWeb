@@ -29,7 +29,6 @@ class UserController extends Controller
             'email' => 'email|required|unique:users',
             'password' => 'required|min:4'
         ]);
-
         $user = new User([
             'first_name' => $request->input('first_name'),
             'last_name' => $request->input('last_name'),
@@ -39,17 +38,13 @@ class UserController extends Controller
             'password' => bcrypt($request->input('password'))
         ]);
         $user->save();
-
-
         $user->roles()->attach(Role::where('name', 'Customer')->first());
         Auth::login($user);
-
         if (Session::has('oldUrl')){
             $oldUrl = Session::get('oldUrl');
             Session::forget('oldUrl');
             return redirect()->to($oldUrl);
         }
-
         return redirect()->route('user.profile');
     }
 
@@ -76,33 +71,26 @@ class UserController extends Controller
 
     public function getProfile(){
 
-        $user_info = Auth::user();
-
         $userId = Auth::id();
         $count = Order::where('user_id','=', $userId)->count();
-
-
         $orders = Order::where('user_id', $userId)
             ->orderBy('id', 'desc')
             ->Paginate(2);
             $orders->transform(function($order, $key) {
             $order->cart = unserialize($order->cart);
-
             return $order;
         });
-        return view('user.profile', ['orders' => $orders, 'user_info' => $user_info, 'count' => $count]);
+        return view('user.profile', ['orders' => $orders, 'count' => $count]);
     }
 
     public function postUpdateDetails(Request $request){
         $user_id = Auth::id();
-
         $user = User::find($user_id);
         $user -> first_name = $request->input('first_name');
         $user -> last_name = $request->input('last_name');
         $user -> address = $request->input('address');
         $user -> phone_number = $request->input('phone_number');
         $user -> email = $request->input('email');
-
         $user->save();
         Flash::message('Your account has been updated!');
         return redirect()->route('user.profile');
@@ -114,7 +102,6 @@ class UserController extends Controller
             'confirm_password' => 'required|min:2',
         ]);
         $user_id = Auth::id();
-
         $user = User::find($user_id);
         $new_password = bcrypt($request->input('new_password'));
         $confirm_password = bcrypt($request->input('confirm_password'));
@@ -124,8 +111,6 @@ class UserController extends Controller
             Flash::message('Password Changed');
             return redirect()->route('user.profile');
         }
-
-
     }
 
     public function getLogout(){

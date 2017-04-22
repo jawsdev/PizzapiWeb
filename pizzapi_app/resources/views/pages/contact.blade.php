@@ -1,5 +1,5 @@
 @extends("layouts.master-template")
-@section("title", "| Pizza! Great food from Cornwall!")
+@section("title", "Contact us")
 @section("facebookOG")
     <meta property="og:title" content="Pizzapi Pizza! Contact"/>
     <meta property="og:type" content="website"/>
@@ -18,17 +18,23 @@
     <div class="pizzapi-red main-divider"></div>
     <div class="section white">
         <div class="row container">
-            <div class="col s12 m12 l6">
-                <h4 class="header truncate">Pizzapi Points!</h4>
-                <img class="responsive-img" src="{{ URL::to('/img/stocks/StockSnap_QI10VZZPBC.jpg') }}">
-                <p class="flow-text lighten-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Beatae blanditiis consequuntur dicta dolor ducimus eius, eum facilis neque nesciunt pariatur
-                    praesentium qui quisquam quos rerum tenetur totam voluptatibus? Ad, corporis?</p>
-            </div>
-            <div class="col s12 m12 l6">
-                <h4 class="header truncate">Our Restaurant</h4>
-                <a href="{{ route('about.index') }}"><img class="responsive-img" src="{{ URL::to('/img/stocks/StockSnap_ODTWJA91CN.jpg') }}"></a>
-                <p class=" flow-text lighten-3">Established in 1995, Mambo Pizza has grown in size by differentiating itself from its competitors by the quality of its products and the speed of its service. Mambo Pizza is above all a quality story, because we do not make a good pizza without using the best ingredients.</p>
+            <div class="col s12 m12 l6 offset-l3">
+                <h4 class="header truncate">Contact us</h4>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Your email</label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="textarea1" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Message</label>
+                    </div>
+                </div>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Send
+                    <i class="material-icons right">send</i>
+                </button>
             </div>
         </div>
     </div>

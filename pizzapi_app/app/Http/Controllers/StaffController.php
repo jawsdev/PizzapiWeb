@@ -15,17 +15,12 @@ class StaffController extends Controller
 {
     //Sends the order table data to the staff dashboard where the order is not complete
     public function getIndex()   {
-
-        $userId = Auth::id();
-        $user_info = User::find($userId);
-
         $orders_open = Order::where('order_complete', 0)
             ->paginate(6);
         $orders_open->transform(function($order, $key) {
             $order->cart = unserialize($order->cart);
             return $order;
         });
-
         $orders_closed = Order::where('order_complete', 1)
             ->orderBy('id', 'desc')
             ->take(3)
@@ -34,35 +29,22 @@ class StaffController extends Controller
             $order->cart = unserialize($order->cart);
             return $order;
         });
-
-        return view('staff.dashboard', ['orders_open' => $orders_open, 'orders_closed' => $orders_closed, 'user_info' => $user_info]);
+        return view('staff.dashboard', ['orders_open' => $orders_open, 'orders_closed' => $orders_closed]);
     }
+
     public function getCurrentProducts(){
         $products = Product::all();
-        $userId = Auth::id();
-        $user_info = User::find($userId);
-
-        return view('staff.current-products', ['products' => $products, 'user_info' => $user_info]);
+        return view('staff.current-products', ['products' => $products]);
     }
 
     public function getMarkOrderComplete(Request $request) {
-
         $id = $request->input('orderid');
-
         $order = Order::find($id);
-
         $order-> order_complete = '1';
         $order->save();
-
         return redirect()->back();
     }
 
-    public function giveUserInfo(){
-        $userId = Auth::id();
-        $user_info = User::find($userId);
-
-        return view('layouts.dashboard._header', ['user_info' => $user_info]);
-    }
     public function getGenerateArticle()
     {
         return response('Article generated!', 200);
@@ -70,11 +52,8 @@ class StaffController extends Controller
 
     public function getManagerPage()
     {
-        $userId = Auth::id();
-        $user_info = User::find($userId);
-
         $users = User::all();
-        return view('staff.manager', ['users' => $users, 'user_info' => $user_info]);
+        return view('staff.manager', ['users' => $users]);
     }
 
     public function getPizzaioloPage()

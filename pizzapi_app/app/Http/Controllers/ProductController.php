@@ -22,48 +22,35 @@ class ProductController extends Controller
 
     public function getPizza()
     {
-        $userId = Auth::id();
-        $user_info = User::find($userId);
-
         $pizzas = Product::where('type', 'pizza')
             ->paginate();
 
-        return view('shop.index', ['pizzas' => $pizzas, 'user_info' => $user_info]);
+        return view('shop.index', ['pizzas' => $pizzas]);
     }
 
     public function getSides()
     {
-        $userId = Auth::id();
-        $user_info = User::find($userId);
-
         $sides = Product::where('type', 'side')
             ->get();
-        return view('shop.sides', ['sides' => $sides, 'user_info' => $user_info]);
+        return view('shop.sides', ['sides' => $sides]);
     }
 
     public function getDrinks()
     {
-        $userId = Auth::id();
-        $user_info = User::find($userId);
-
         $drinks = Product::where('type', 'drink')
             ->get();
-        return view('shop.drinks', ['drinks' => $drinks, 'user_info' => $user_info]);
+        return view('shop.drinks', ['drinks' => $drinks]);
     }
 
     public function getDesserts()
     {
-        $userId = Auth::id();
-        $user_info = User::find($userId);
-
         $desserts = Product::where('type', 'dessert')
             ->get();
-        return view('shop.desserts', ['desserts' => $desserts, 'user_info' => $user_info]);
+        return view('shop.desserts', ['desserts' => $desserts]);
     }
-
+//  adds another item to basket
     public function getAddToCart(Request $request, $id) {
         $product = Product::find($id);
-
         $oldCart = Session::has('cart') ? Session::get('cart') : null;
         $cart = new Cart($oldCart);
         $cart->add($product, $product->id);
@@ -71,7 +58,6 @@ class ProductController extends Controller
         $request->session()->put('cart', $cart);
         return redirect()->back();
     }
-
 
     //Reduces cart item by one
     public function getincreaseByOne($id) {
@@ -99,6 +85,7 @@ class ProductController extends Controller
         return redirect()->route('product.shoppingCart');
     }
 
+//  Remove an entire item
     public function getRemoveItem($id){
         $oldCart = Session::has('cart') ? Session::get('cart') : null;
         $cart = new Cart($oldCart);
@@ -112,31 +99,26 @@ class ProductController extends Controller
     }
 
     public function getCart(){
-        $userId = Auth::id();
-        $user_info = User::find($userId);
 
         if (!Session::has('cart')) {
             return view('shop.shopping-cart');
         }
         $oldCart = Session::get('cart');
         $cart = new Cart($oldCart);
-        return view('shop.shopping-cart', ['products' => $cart->items, 'totalPrice' => $cart->totalPrice, 'user_info' => $user_info]);
+
+        return view('shop.shopping-cart', ['products' => $cart->items, 'totalPrice' => $cart->totalPrice, 'totalQty' => $cart->totalQty]);
     }
 
     public function getCheckout() {
 
 //      Get the users info to pre-fill the name and address
-        $userId = Auth::id();
-        $user_info = User::find($userId);
-
-
         if (!Session::has('cart')) {
             return view('shop.shopping-cart');
         }
         $oldCart = Session::get('cart');
         $cart = new Cart($oldCart);
         $total = $cart->totalPrice;
-        return view('shop.checkout', ['total' => $total, 'user_info' => $user_info]);
+        return view('shop.checkout', ['total' => $total]);
     }
 
     public function postCheckout(Request $request)
@@ -149,6 +131,7 @@ class ProductController extends Controller
 
         Stripe::setApiKey('sk_test_KehrkfQURXYx8aoGUQdn7thg');
         try{
+        	//Validate the data
             $this->validate($request, [
                 'first_name' => 'required|max:255',
                 'last_name' => 'required|max:255',
@@ -161,7 +144,6 @@ class ProductController extends Controller
                 'card-expiry-year' => 'integer|digits:4',
                 'card-cvc' => 'integer|digits:3',
             ]);
-
             $charge = Charge::create(
                 array(
                     "amount" => $cart->totalPrice * 100,
@@ -169,6 +151,7 @@ class ProductController extends Controller
                     "source" => $request->input('stripeToken'), // obtained with Stripe.js
                     "description" => "Test Charge for Pizzapi"
                 ));
+            //Create the order and save to database
             $order = new Order();
             $order->cart = serialize($cart);
             $order->first_name = $request->input('first_name');
@@ -180,12 +163,13 @@ class ProductController extends Controller
             $order->payment_name = $request->input('payment_name');
             $order->payment_id = $charge->id;
 
-
             Auth::user()->orders()->save($order);
 
+            //find the customers details
             $userId = Auth::id();
             $user = User::findOrFail($userId);
 
+            //send customer a confirmation email
             Mail::send('mail.email', ['user' => $user, 'order' => $order], function ($m) use ($user) {
                 $m->from('mailer@pizzappi.uk', 'Pizzapi');
 

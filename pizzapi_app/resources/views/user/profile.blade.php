@@ -11,7 +11,6 @@
                 </div>
             </div>
         @endif
-
         @if (session()->has('flash_notification.message'))
             <div class="row">
                 <div class="col s12 l10 offset-l1 alert center-align">
@@ -21,23 +20,22 @@
                 </div>
             </div>
         @endif
-
         <div class="row">
             <div class="col s12 l5">
                 <h5>My Orders</h5>
-                    @foreach($orders->sortByDesc('id')  as $order)
-                        <ul class="collection with-header">
-                            <li class="collection-header grey lighten-2">
-                                <h5>Ordered: {{ Carbon\Carbon::parse($order->created_at)->format('d-m-Y') }}</h5></li>
-                            @foreach($order->cart->items as $item)
-                                <li class="collection-item">{{ $item['qty'] }} x {{ $item['item']['title'] }} | Price:
-                                    £{{ $item['price'] }}</li>
-                            @endforeach
-                            <li class="collection-header grey lighten-4"><h6>Total Price:
-                                    £{{ $order->cart->totalPrice }}</h6></li>
-                        </ul>
-                    @endforeach
-                    <span>
+                @foreach($orders->sortByDesc('id')  as $order)
+                    <ul class="collection with-header">
+                        <li class="collection-header grey lighten-2">
+                            <h5>Ordered: {{ Carbon\Carbon::parse($order->created_at)->format('d-m-Y') }}</h5></li>
+                        @foreach($order->cart->items as $item)
+                            <li class="collection-item">{{ $item['qty'] }} x {{ $item['item']['title'] }} | Price:
+                                £{{ $item['price'] }}</li>
+                        @endforeach
+                        <li class="collection-header grey lighten-4"><h6>Total Price:
+                                £{{ $order->cart->totalPrice }}</h6></li>
+                    </ul>
+                @endforeach
+                <span>
                 @include('partials.pagination', ['paginator' => $orders])
                 </span>
             </div>
@@ -48,31 +46,31 @@
                         <form action="{{ route('user.update_details') }}" method="post">
                             <div class="row">
                                 <div class="input-field col s6">
-                                    <input placeholder="Placeholder" value="{{ $user_info['first_name'] }}"
+                                    <input placeholder="Placeholder" value="{{ Auth::user()->first_name }}"
                                            name="first_name" id="first_name" type="text" class="validate">
                                     <label for="first_name">First Name</label>
                                 </div>
                                 <div class="input-field col s6">
-                                    <input id="last_name" value="{{ $user_info['last_name'] }}" name="last_name"
+                                    <input id="last_name" value="{{ Auth::user()->last_name }}" name="last_name"
                                            type="text" class="validate">
                                     <label for="last_name">Last Name</label>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="input-field col s6">
-                                    <input id="email" value="{{ $user_info['email'] }}" type="email" name="email"
+                                    <input id="email" value="{{ Auth::user()->email }}" type="email" name="email"
                                            class="validate">
                                     <label for="email">Email</label>
                                 </div>
                                 <div class="input-field col s6">
-                                    <input id="phone_number" value="{{ $user_info['phone_number'] }}"
+                                    <input id="phone_number" value="{{ Auth::user()->phone_number }}"
                                            name="phone_number" type="number" class="validate">
                                     <label for="phone_number">Phone Number</label>
                                 </div>
                             </div>
                             <div class="row no_bottom_margin">
                                 <div class="input-field col s12">
-                                    <input id="address" value="{{ $user_info['address'] }}" name="address" type="text"
+                                    <input id="address" value="{{ Auth::user()->address }}" name="address" type="text"
                                            class="validate">
                                     <label for="address">Address</label>
                                 </div>
@@ -96,7 +94,8 @@
                             </div>
                             <div class="row no_bottom_margin">
                                 <div class="input-field col s12">
-                                    <input id="confirm_password" type="password" name="confirm_password" class="validate">
+                                    <input id="confirm_password" type="password" name="confirm_password"
+                                           class="validate">
                                     <label for="confirm_password">Confirm Password</label>
                                 </div>
                             </div>
@@ -110,7 +109,6 @@
                             </div>
                             {{ csrf_field() }}
                         </form>
-
                     </div>
                 </div>
             </div>
@@ -119,6 +117,6 @@
 @endsection
 @section('scripts')
     <script>
-        $('div.alert').not('.alert-important').delay(3000).fadeOut(350);
+        $('div.alert').not('.alert-important').delay(5000).fadeOut(350);
     </script>
 @endsection
