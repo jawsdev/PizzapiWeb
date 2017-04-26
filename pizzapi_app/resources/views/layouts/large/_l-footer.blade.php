@@ -44,6 +44,7 @@
                     <li><i class="fa-li fa fa-facebook " aria-hidden="true"></i> Facebook</li>
                     <li><i class="fa-li fa fa-instagram " aria-hidden="true"></i> Instagram</li>
                 </ul>
+                <script type="text/javascript" src="https://sealserver.trustwave.com/seal.js?style=normal"></script>
             </div>
         </div>
         </div>

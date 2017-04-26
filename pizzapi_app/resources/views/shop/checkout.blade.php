@@ -156,19 +156,17 @@
             <div class="row">
                 <div class="col l6 s12 offset-l3">
                     <div class="row">
-                        <div class="col s4 l2">
+                        <div class="col s6 l2">
                             <img class="card-icon" src="{{ URL::to('img/icons/visa.png') }}" alt="">
                         </div>
-                        <div class="col s4 l2 left-align">
+                        <div class="col s6 l2 left-align">
                             <img class="card-icon" src="{{ URL::to('img/icons/1492644178__Mastercard.png') }}" alt="">
                         </div>
-                        <div class="col s4 l2 left-align">
+                        <div class="col s6 l2 left-align">
                             <img class="card-icon" src="{{ URL::to('img/icons/Maestro.png') }}" alt="">
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col s12">
-                            <p class="flow-text green-text"><i class="fa fa-lock" aria-hidden="true"></i> Pizzapi uses SHA256RSA(TLS 1.2) Encryption <i class="fa fa-check" aria-hidden="true"></i></p>
+                        <div class="col s6 l2 left-align">
+                            <script type="text/javascript" src="https://sealserver.trustwave.com/seal.js?style=normal"></script>
                         </div>
                     </div>
                 </div>

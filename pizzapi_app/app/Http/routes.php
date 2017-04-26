@@ -13,6 +13,8 @@
 
 
 
+
+
 Route::get('/', [
     'uses' => 'PagesController@getMain',
     'as' => 'pages.main'
